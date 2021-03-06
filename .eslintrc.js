@@ -16,6 +16,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'space-before-function-paren': 0,
     /* 多余的转义符不校验 */
-    'no-useless-escape': 0
+    'no-useless-escape': 0,
+    'vue/no-unused-vars': 0
   }
 }
