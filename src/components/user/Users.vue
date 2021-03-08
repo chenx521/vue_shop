@@ -259,7 +259,6 @@ export default {
           { required: true, message: '请输入手机号', trigger: 'blur' },
           { validator: checkTel, trigger: 'blur' }
         ],
-
         email: [
           { required: true, message: '请输入邮箱', trigger: 'blur' },
           { validator: checkEmail, trigger: 'blur' }
@@ -276,7 +275,6 @@ export default {
           { required: true, message: '请输入手机号', trigger: 'blur' },
           { validator: checkTel, trigger: 'blur' }
         ],
-
         email: [
           { required: true, message: '请输入邮箱', trigger: 'blur' },
           { validator: checkEmail, trigger: 'blur' }
