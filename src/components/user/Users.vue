@@ -390,7 +390,7 @@ export default {
       })
       console.log(confirmResult)
       if (confirmResult === 'confirm') {
-        const { data: res } = this.$http.delete('users/' + id)
+        const { data: res } = await this.$http.delete('users/' + id)
         if (res.meta.status !== 200) {
           return this.$message.error('删除用户失败')
         }
